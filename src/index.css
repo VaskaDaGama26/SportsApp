@@ -1,0 +1,63 @@
+@import "./fonts.css";
+
+@import "tailwindcss";
+
+:root {
+  --primary: #a8ce55;
+  --black: #000000;
+  --white: #ffffff;
+  --shadow3: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.color-primary {
+  color: var(--primary);
+}
+
+
+.border-primaryColor2 {
+  border-bottom: 2px solid var(--primary);
+}
+.border-primaryColor1 {
+  border-bottom: 1px solid var(--primary);
+}
+
+/* Nav Underline Animation */
+.underline-animation {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black);
+}
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--white);
+  transform: translateX(-50%);
+}
+.underline-animation:hover::after {
+  animation: expand-line 0.3s ease-in-out forwards;
+}
+@keyframes expand-line {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Header Shadow */
+.shadow5 {
+  box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+/* Button Shadow */
+.shadow3 {
+  box-shadow: var(--shadow3)
+}

@@ -1,0 +1,26 @@
+{
+  "prices": "Prices",
+  "news": "News",
+  "contacts": "Contacts",
+  "about": "About",
+
+  "main": "Unleash Your<br /> Power",
+  "come_h": "Come to Sports!",
+  "come_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+
+  "faqs_disc": "Can’t find the answer you’re looking for? Please chat to our friendly team on our Instagram: ",
+
+  "accH1": "Are your facilities open year-round?",
+  "accH2": "Do you offer group lessons or clinics?",
+  "accH3": "How do I sign up for membership?",
+  "accH4": "Can I make booking in advance?",
+  "accH5": "What types of programs do you offer?",
+  "accH6": "Do you provide equipment rentals?",
+
+  "accT1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "accT2": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "accT3": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "accT4": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "accT5": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "accT6": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+}

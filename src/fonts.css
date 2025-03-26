@@ -1,0 +1,173 @@
+@theme {
+  --english-text-thin: "Barlow_Condensed_Thin", "sans-serif";
+  --english-text-extralight: "Barlow_Condensed_ExtraLight", "sans-serif";
+  --english-text-light: "Barlow_Condensed_Light", "sans-serif";
+  --english-text: "Barlow_Condensed_Regular", "sans-serif";
+  --english-text-medium: "Barlow_Condensed_Medium", "sans-serif";
+  --english-text-semibold: "Barlow_Condensed_SemiBold", "sans-serif";
+  --english-text-bold: "Barlow_Condensed_Bold", "sans-serif";
+  --english-text-extrabold: "Barlow_Condensed_ExtraBold", "sans-serif";
+  --english-text-black: "Barlow_Condensed_Black", "sans-serif";
+
+  --russian-text-thin: "Fira_Sans_Extra_Condensed_Thin", "sans-serif";
+  --russian-text-extralight: "Fira_Sans_Extra_Condensed_ExtraLight", "sans-serif";
+  --russian-text-light: "Fira_Sans_Extra_Condensed_Light", "sans-serif";
+  --russian-text: "Fira_Sans_Extra_Condensed_Regular", "sans-serif";
+  --russian-text-medium: "Fira_Sans_Extra_Condensed_Medium", "sans-serif";
+  --russian-text-semibold: "Fira_Sans_Extra_Condensed_SemiBold", "sans-serif";
+  --russian-text-bold: "Fira_Sans_Extra_Condensed_Bold", "sans-serif";
+  --russian-text-extrabold: "Fira_Sans_Extra_Condensed_ExtraBold", "sans-serif";
+  --russian-text-black: "Fira_Sans_Extra_Condensed_Black", "sans-serif";
+}
+
+/* Barlow Condensed - EN */
+
+/* 100 - thin */
+@font-face {
+  font-family: "Barlow_Condensed_Thin";
+  src: url("/Barlow_Condensed/BarlowCondensed-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+/* 200 - extralight */
+@font-face {
+  font-family: "Barlow_Condensed_ExtraLight";
+  src: url("/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+/* 300 - light */
+@font-face {
+  font-family: "Barlow_Condensed_Light";
+  src: url("/Barlow_Condensed/BarlowCondensed-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+/* 400 - regular */
+@font-face {
+  font-family: "Barlow_Condensed_Regular";
+  src: url("/Barlow_Condensed/BarlowCondensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* 500 - medium */
+@font-face {
+  font-family: "Barlow_Condensed_Medium";
+  src: url("/Barlow_Condensed/BarlowCondensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* 600 - semibold */
+@font-face {
+  font-family: "Barlow_Condensed_SemiBold";
+  src: url("/Barlow_Condensed/BarlowCondensed-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+/* 700 - bold */
+@font-face {
+  font-family: "Barlow_Condensed_Bold";
+  src: url("/Barlow_Condensed/BarlowCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* 800 - extrabold */
+@font-face {
+  font-family: "Barlow_Condensed_ExtraBold";
+  src: url("/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+/* 900 - black */
+@font-face {
+  font-family: "Barlow_Condensed_Black";
+  src: url("/Barlow_Condensed/BarlowCondensed-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Fira Sans Extra Condensed - RU */
+
+/* 100 - thin */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Thin";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+/* 200 - extralight */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_ExtraLight";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+/* 300 - light */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Light";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+/* 400 - regular */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Regular";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* 500 - medium */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Medium";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* 600 - semibold */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_SemiBold";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+/* 700 - bold */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Bold";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* 800 - extrabold */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condense_ExtraBold";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+/* 900 - black */
+@font-face {
+  font-family: "Fira_Sans_Extra_Condensed_Black";
+  src: url("/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.english-text-thin {font-family: var(--english-text-thin)}
+.english-text-extralight {font-family: var(--english-text-extralight)}
+.english-text-light {font-family: var(--english-text-light)}
+.english-text {font-family: var(--english-text)}
+.english-text-medium {font-family: var(--english-text-medium)}
+.english-text-semibold {font-family: var(--english-text-semibold)}
+.english-text-bold {font-family: var(--english-text-bold)}
+.english-text-extrabold {font-family: var(--english-text-extrabold)}
+.english-text-black {font-family: var(--english-text-black)}
+
+.russian-text-thin {font-family: var(--russian-text-thin)}
+.russian-text-extralight {font-family: var(--russian-text-extralight)}
+.russian-text-light {font-family: var(--russian-text-light)}
+.russian-text {font-family: var(--russian-text)}
+.russian-text-medium {font-family: var(--russian-text-medium)}
+.russian-text-semibold {font-family: var(--russian-text-semibold)}
+.russian-text-bold {font-family: var(--russian-text-bold)}
+.russian-text-extrabold {font-family: var(--russian-text-extrabold)}
+.russian-text-black {font-family: var(--russian-text-black)}
