@@ -28,7 +28,7 @@ function Accordion({ sections }) {
           >
             {t(section.title)}
             <img
-              src="/arrow_down.svg"
+              src="/icons/arrow_down.svg"
               alt=""
               className={`transition-transform duration-300 ${
                 activeIndex === index ? "-rotate-180" : "rotate-0"

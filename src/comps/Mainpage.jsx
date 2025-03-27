@@ -3,6 +3,7 @@ import Heading from "./UI/Heading";
 import Button from "./UI/Button";
 import Accordion from "./UI/Accordion";
 import { useTranslation } from "react-i18next";
+import mainImg from "/pageImg/mainImg.png"
 
 const Mainpage = () => {
   const { t, i18n } = useTranslation();
@@ -23,7 +24,7 @@ const Mainpage = () => {
       <div className="-z-10 mx-auto -mt-8 mb-9 flex justify-center px-2.5 md:px-0 lg:px-4">
         <img
           className="w-2xs sm:w-xl md:w-2xl lg:w-7xl"
-          src="/mainImg.png"
+          src={mainImg}
           alt=""
         />
       </div>

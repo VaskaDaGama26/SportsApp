@@ -6,7 +6,7 @@ const Heading = ({ label }) => {
 
   return (
     <h1
-      className={`text-7xl lg:text-9xl text-center w-fit mx-auto mt-8 uppercase ${
+      className={`text-7xl w-full lg:text-9xl text-center md:w-fit lg:w-fit mx-auto mt-8 uppercase ${
         i18n.language === "ru"
           ? "russian-text-semibold"
           : "english-text-semibold"

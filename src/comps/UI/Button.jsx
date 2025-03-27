@@ -14,7 +14,7 @@ const Button = ({ label, route }) => {
       className="w-fit text-2xl md:text-3xl english-text flex gap-2 bg-primary px-8 py-3 items-center transition duration-300 hover:shadow-(--shadow3) cursor-pointer"
     >
       {label}
-      <img className="h-6 md:h-8" src="/arrow_right.svg"></img>
+      <img className="h-6 md:h-8" src="/icons/arrow_right.svg"></img>
     </button>
   );
 };

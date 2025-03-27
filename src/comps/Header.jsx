@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import burger from "/menu_icon.svg";
-import close from "/close_icon.svg";
+import burger from "/icons/menu_icon.svg";
+import close from "/icons/close_icon.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -173,12 +173,12 @@ const Header = () => {
   return (
     <>
       {/* DESKTOP */}
-      <div className="sticky top-0 flex-row justify-center items-center w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 hidden lg:flex">
+      <div className="z-50 sticky top-0 flex-row justify-center items-center w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 hidden lg:flex">
         {renderNav()}
       </div>
 
       {/* MOBILE */}
-      <div className="sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 flex lg:hidden">
+      <div className="z-50 sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 flex lg:hidden">
         {/* LOGO */}
         <a className="flex items-center" href="/">
           <img src="/logo.svg" alt="Sports | Sport Club" />

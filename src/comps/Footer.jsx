@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import fbIcon from "/fb_icon.svg";
-import instIcon from "/inst_icon.svg";
-import wpIcon from "/wp_icon.svg";
-import fbHover from "/fb_iconHover.svg";
-import instHover from "/inst_iconHover.svg";
-import wpHover from "/wp_iconHover.svg";
+import fbIcon from "/socials/fb_icon.svg";
+import instIcon from "/socials/inst_icon.svg";
+import wpIcon from "/socials/wp_icon.svg";
+import fbHover from "/socials/fb_iconHover.svg";
+import instHover from "/socials/inst_iconHover.svg";
+import wpHover from "/socials/wp_iconHover.svg";
 
 const Footer = () => {
   const [fbHovered, setFbHovered] = useState(false);
@@ -12,8 +12,8 @@ const Footer = () => {
   const [wpHovered, setWpHovered] = useState(false);
 
   return (
-    <div className="border-t-1 border-stone-400 flex flex-col md:flex-row gap-4 md:gap-0 pt-4 mt-8 pb-16 mx-4 justify-between">
-      <div className="flex md:flex-row flex-col items-start md:items-center gap-2 md:gap-4 md:ms-4">
+    <div className="max-w-7xl mx-4 xl:mx-auto border-t-1 border-stone-400 flex flex-col md:flex-row gap-4 md:gap-0 pt-4 mt-8 pb-16 justify-between">
+      <div className="flex sm:flex-row md:flex-row flex-col items-start md:items-center gap-2 md:gap-4 md:ms-4">
         <p className="text-stone-400 english-text text-lg leading-none">
           © 2025 Sports. All rights reserved.
         </p>

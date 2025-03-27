@@ -22,5 +22,21 @@
   "accT3": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   "accT4": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   "accT5": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT6": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  "accT6": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+
+  "news1Img": "/news/news1.png",
+  "news2Img": "/news/news2.png",
+  "news3Img": "/news/news3.png",
+
+  "news1Date": "11.09.2024",
+  "news2Date": "04.09.2024",
+  "news3Date": "12.08.2024",
+
+  "news1H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "news2H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "news3H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+
+  "news1T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+  "news2T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus.",
+  "news3T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
 }
