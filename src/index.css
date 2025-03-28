@@ -61,3 +61,7 @@
 .shadow3 {
   box-shadow: var(--shadow3)
 }
+
+.w-76 {
+  width: calc(var(--spacing) * 76) /* 18rem = 304px */;
+}

@@ -114,7 +114,7 @@ const Header = () => {
       <nav className="flex flex-col items-end w-full max-w-7xl gap-8">
         <div className="flex flex-col gap-24 items-center">
           {/* NAV */}
-          <ul className="flex flex-col justify-end gap-8 items-end w-3xs">
+          <ul className="flex flex-col justify-end gap-8 items-end w-fit">
             {leftItems.map((item) => (
               <li
                 key={item.id}
@@ -197,7 +197,7 @@ const Header = () => {
       </div>
       {/* SIDE MENU */}
       <div
-        className={`lg:hidden fixed top-0 right-0 w-2/3 md:w-1/3 h-screen py-8 px-6 bg-primary bg-opacity-75 z-50 transform ${
+        className={`menu lg:hidden fixed top-0 right-0 w-2/3 md:w-1/3 h-screen py-8 px-6 bg-primary bg-opacity-75 z-50 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >

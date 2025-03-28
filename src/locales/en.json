@@ -38,5 +38,11 @@
 
   "news1T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
   "news2T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus.",
-  "news3T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
+  "news3T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+
+  "contactsT": "Whether you want to make a booking, join a class, or inquire about personalized coaching, write us on our social medias, we’ll get back to you as soon as possible!",
+
+  "emailH": "Stay updated easily",
+  "placeholderEmail": "Enter your email",
+  "buttonEmail": "Subscribe"
 }
