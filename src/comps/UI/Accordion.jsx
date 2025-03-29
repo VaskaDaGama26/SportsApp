@@ -23,7 +23,7 @@ function Accordion({ sections }) {
           <button
             className={`flex text-stone-50 text-2xl justify-between pb-3 w-full text-left cursor-pointer ${
               i18n.language === "ru" ? "russian-text" : "english-text"
-            } ${activeIndex === index ? "color-primary" : "text-stone-50"}  `}
+            } ${activeIndex === index ? "text-(--primary)" : "text-stone-50"}  `}
             onClick={() => toggleAccordion(index)}
           >
             {t(section.title)}

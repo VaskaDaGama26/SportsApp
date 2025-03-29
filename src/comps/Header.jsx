@@ -9,6 +9,7 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
+    setIsMenuOpen(false);
   };
 
   const leftItems = [
@@ -173,12 +174,12 @@ const Header = () => {
   return (
     <>
       {/* DESKTOP */}
-      <div className="z-50 sticky top-0 flex-row justify-center items-center w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 hidden lg:flex">
+      <div className="z-50 sticky top-0 flex-row justify-center items-center w-full h-20 py-4 px-5 mx-auto bg-(--primary) shadow5 hidden lg:flex">
         {renderNav()}
       </div>
 
       {/* MOBILE */}
-      <div className="z-50 sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-primary shadow5 flex lg:hidden">
+      <div className="z-50 sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-(--primary) shadow5 flex lg:hidden">
         {/* LOGO */}
         <a className="flex items-center" href="/">
           <img src="/logo.svg" alt="Sports | Sport Club" />
@@ -197,7 +198,7 @@ const Header = () => {
       </div>
       {/* SIDE MENU */}
       <div
-        className={`menu lg:hidden fixed top-0 right-0 w-2/3 md:w-1/3 h-screen py-8 px-6 bg-primary bg-opacity-75 z-50 transform ${
+        className={`menu lg:hidden fixed top-0 right-0 w-2/3 md:w-1/3 h-screen py-8 px-6 bg-(--primary) bg-opacity-75 z-50 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >

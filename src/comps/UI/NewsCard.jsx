@@ -17,7 +17,7 @@ const NewsCard = ({ items }) => {
           <img className="w-80 lg:w-96" src={t(item.image)} alt="" />
           <div className="w-full md:w-1/2 flex flex-col items-start gap-4">
             <h1
-              className={`text-4xl color-primary border-b ${
+              className={`text-4xl text-(--primary) border-b ${
                 i18n.language === "ru"
                   ? "russian-text-semibold"
                   : "english-text-semibold"

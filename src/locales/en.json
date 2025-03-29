@@ -44,5 +44,13 @@
 
   "emailH": "Stay updated easily",
   "placeholderEmail": "Enter your email",
-  "buttonEmail": "Subscribe"
+  "buttonEmail": "Subscribe",
+
+  "aboutT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+  "storyH": "The story of",
+  "weightT": "Lorem ipsum dolor",
+  "communityT": "Lorem ipsum dolor sit",
+  "medalT": "Lorem ipsum dolor sit amet",
+  "trophyT": "Lorem consectetur adipiscing elit",
+  "storyT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
 }

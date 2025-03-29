@@ -62,7 +62,7 @@ const Mainpage = () => {
             }`}
           >
             {t("faqs_disc")}
-            <a href="" className="color-primary cursor-pointer">
+            <a href="" className="text-(--primary) cursor-pointer">
               @sports
             </a>
           </h5>

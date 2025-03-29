@@ -14,13 +14,13 @@ const Email = () => {
       </h1>
       <div className="flex flex-col gap-4 sm:flex-row">
         <input
-          className={`border border-gray-400 px-4 py-3.5 w-72 ${i18n.language === "ru" ? "russian-text-light" : "english-text-light"}`}
+          className={`border border-gray-400 customFocus px-4 py-3.5 w-72 ${i18n.language === "ru" ? "russian-text-light" : "english-text-light"}`}
           placeholder={t("placeholderEmail")}
           type="email"
         />
         <button
           onClick={""}
-          className={`w-fit text-xl english-text-light uppercase flex gap-2 bg-primary px-8 py-3 items-center transition duration-300 hover:shadow-(--shadow3) cursor-pointer ${i18n.language === "ru" ? "russian-text-light" : "english-text-light"}`}
+          className={`w-fit customFocus text-xl english-text-light uppercase flex gap-2 bg-(--primary) px-8 py-3 items-center transition duration-300 hover:shadow-(--shadow3) cursor-pointer ${i18n.language === "ru" ? "russian-text-light" : "english-text-light"}`}
         >
           {t("buttonEmail")}
           <img className="h-6 md:h-8" src={subs}></img>
