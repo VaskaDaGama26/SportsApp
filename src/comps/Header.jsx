@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import burger from "/icons/menu_icon.svg";
 import close from "/icons/close_icon.svg";
-import leftLogo from "/logo.svg";
-import centerLogo from "/logo.png";
+import leftLogo from "/logo/logo.svg";
+import centerLogo from "/logo/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,12 +15,12 @@ const Header = () => {
   };
 
   const leftItems = [
-    { id: 1, label: "prices", link: "/prices" },
-    { id: 2, label: "news", link: "/news" },
+    { id: 1, label: "prices", link: "/SportsApp/prices" },
+    { id: 2, label: "news", link: "/SportsApp/news" },
   ];
   const rightItems = [
-    { id: 3, label: "contacts", link: "/contacts" },
-    { id: 4, label: "about", link: "/about" },
+    { id: 3, label: "contacts", link: "/SportsApp/contacts" },
+    { id: 4, label: "about", link: "/SportsApp/about" },
   ];
 
   useEffect(() => {
