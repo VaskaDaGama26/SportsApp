@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import arrow_down from "/icons/arrow_down.svg";
 
 function Accordion({ sections }) {
   const { t, i18n } = useTranslation();
@@ -28,7 +29,7 @@ function Accordion({ sections }) {
           >
             {t(section.title)}
             <img
-              src="/icons/arrow_down.svg"
+              src={arrow_down}
               alt=""
               className={`transition-transform duration-300 ${
                 activeIndex === index ? "-rotate-180" : "rotate-0"

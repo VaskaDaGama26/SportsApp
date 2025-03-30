@@ -35,7 +35,7 @@ const Header = () => {
   const renderNav = () => (
     <nav className="flex items-center w-full max-w-7xl justify-between">
       {/* LOGO */}
-      <a href="/">
+      <a href="/SportsApp/">
         <img src="./logo.svg" alt="Sports | Sport Club" />
       </a>
       <div className="flex flex-row gap-24 items-center">
@@ -55,7 +55,7 @@ const Header = () => {
           ))}
         </ul>
         {/* CENTER LOGO */}
-        <a href="/">
+        <a href="/SportsApp/">
           <img className="h-6" src="./logo.png" alt="Sports | Sport Club" />
         </a>
         {/* RIGHT NAV */}

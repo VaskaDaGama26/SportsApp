@@ -1,5 +1,5 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Navigate,
   Route,
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <Router>
+      <Router basename="/SportsApp/">
         <Routes>
           <Route path="/" element={<Mainpage />} />
           <Route path="/prices" element={<Prices />} />
