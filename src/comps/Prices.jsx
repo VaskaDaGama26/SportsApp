@@ -188,7 +188,7 @@ const Prices = () => {
       {/* INDIVIDUAL TABLE */}
       <table className="table-auto w-full text-center">
         <thead>
-          {/* TABLE HEADER 1 */}
+          {/* TABLE HEADER 1-1 */}
           <tr className="bg-stone-950 border-2 border-stone-950">
             <th
               colSpan="3"
@@ -197,7 +197,7 @@ const Prices = () => {
               {t("tables.individualTable.header")}
             </th>
           </tr>
-          {/* TABLE HEADER 2 */}
+          {/* TABLE HEADER 1-2 */}
           <tr>
             <th
               colSpan="3"
@@ -206,7 +206,7 @@ const Prices = () => {
               {t("tables.individualTable.standart")}
             </th>
           </tr>
-          {/* TABLE HEADER 2/3 */}
+          {/* TABLE HEADER 1/3 */}
           <tr>
             <th className="bg-(--dark-primary) border-2 border-stone-950 p-2"></th>
             <th
