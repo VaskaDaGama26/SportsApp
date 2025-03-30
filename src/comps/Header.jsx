@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import burger from "/icons/menu_icon.svg";
 import close from "/icons/close_icon.svg";
-import leftLogo from "/SportsApp/logo/logo.svg";
-import centerLogo from "/SportsApp/logo/logo.png";
+import leftLogo from "/logo/logo.svg";
+import centerLogo from "/logo/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
