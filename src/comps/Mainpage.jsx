@@ -9,12 +9,12 @@ const Mainpage = () => {
   const { t, i18n } = useTranslation();
 
   const accordionData = [
-    { title: "accH1", content: "accT1" },
-    { title: "accH2", content: "accT2" },
-    { title: "accH3", content: "accT3" },
-    { title: "accH4", content: "accT4" },
-    { title: "accH5", content: "accT5" },
-    { title: "accH6", content: "accT6" },
+    { title: "accordion.accH1", content: "accordion.accT1" },
+    { title: "accordion.accH2", content: "accordion.accT2" },
+    { title: "accordion.accH3", content: "accordion.accT3" },
+    { title: "accordion.accH4", content: "accordion.accT4" },
+    { title: "accordion.accH5", content: "accordion.accT5" },
+    { title: "accordion.accH6", content: "accordion.accT6" },
   ];
 
   return (

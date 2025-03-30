@@ -12,24 +12,24 @@ const News = () => {
   const newsItems = [
     {
       id: 1,
-      image: "news1Img",
-      heading: "news1H",
-      text: "news1T",
-      date: "news1Date",
+      image: "newsBlock.news1Img",
+      heading: "newsBlock.news1H",
+      text: "newsBlock.news1T",
+      date: "newsBlock.news1Date",
     },
     {
       id: 2,
-      image: "news2Img",
-      heading: "news2H",
-      text: "news2T",
-      date: "news2Date",
+      image: "newsBlock.news2Img",
+      heading: "newsBlock.news2H",
+      text: "newsBlock.news2T",
+      date: "newsBlock.news2Date",
     },
     {
       id: 3,
-      image: "news3Img",
-      heading: "news3H",
-      text: "news3T",
-      date: "news3Date",
+      image: "newsBlock.news3Img",
+      heading: "newsBlock.news3H",
+      text: "newsBlock.news3T",
+      date: "newsBlock.news3Date",
     },
   ];
 

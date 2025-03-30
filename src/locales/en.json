@@ -10,47 +10,79 @@
 
   "faqs_disc": "Can’t find the answer you’re looking for? Please chat to our friendly team on our Instagram: ",
 
-  "accH1": "Are your facilities open year-round?",
-  "accH2": "Do you offer group lessons or clinics?",
-  "accH3": "How do I sign up for membership?",
-  "accH4": "Can I make booking in advance?",
-  "accH5": "What types of programs do you offer?",
-  "accH6": "Do you provide equipment rentals?",
+  "accordion": {
+    "accH1": "Are your facilities open year-round?",
+    "accH2": "Do you offer group lessons or clinics?",
+    "accH3": "How do I sign up for membership?",
+    "accH4": "Can I make booking in advance?",
+    "accH5": "What types of programs do you offer?",
+    "accH6": "Do you provide equipment rentals?",
 
-  "accT1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT2": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT3": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT4": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT5": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "accT6": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT2": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT3": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT4": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT5": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "accT6": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
 
-  "news1Img": "/news/news1.png",
-  "news2Img": "/news/news2.png",
-  "news3Img": "/news/news3.png",
+  "newsBlock": {
+    "news1Img": "/news/news1.png",
+    "news2Img": "/news/news2.png",
+    "news3Img": "/news/news3.png",
 
-  "news1Date": "11.09.2024",
-  "news2Date": "04.09.2024",
-  "news3Date": "12.08.2024",
+    "news1Date": "11.09.2024",
+    "news2Date": "04.09.2024",
+    "news3Date": "12.08.2024",
 
-  "news1H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  "news2H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-  "news3H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "news1H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "news2H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "news3H": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 
-  "news1T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
-  "news2T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus.",
-  "news3T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+    "news1T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+    "news2T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus.",
+    "news3T": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
+  },
 
   "contactsT": "Whether you want to make a booking, join a class, or inquire about personalized coaching, write us on our social medias, we’ll get back to you as soon as possible!",
 
-  "emailH": "Stay updated easily",
-  "placeholderEmail": "Enter your email",
-  "buttonEmail": "Subscribe",
+  "emailComp": {
+    "emailH": "Stay updated easily",
+    "placeholderEmail": "Enter your email",
+    "buttonEmail": "Subscribe"
+  },
 
-  "aboutT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
-  "storyH": "The story of",
-  "weightT": "Lorem ipsum dolor",
-  "communityT": "Lorem ipsum dolor sit",
-  "medalT": "Lorem ipsum dolor sit amet",
-  "trophyT": "Lorem consectetur adipiscing elit",
-  "storyT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
+  "aboutPage": {
+    "aboutT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+    "storyH": "The story of",
+    "weightT": "Lorem ipsum dolor",
+    "communityT": "Lorem ipsum dolor sit",
+    "medalT": "Lorem ipsum dolor sit amet",
+    "trophyT": "Lorem consectetur adipiscing elit",
+    "storyT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu metus lacus. Etiam in vestibulum quam. Vestibulum ante ipsum primis in faucibus orci luctus et."
+  },
+
+  "tables": {
+    "rentalTable": {
+      "header": "Rental",
+      "standart": "Standart Hours",
+      "offpeak": "Off-Peak Hours",
+      "amateur": "Amateur",
+      "pro": "Professional"
+    },
+    "groupTable": {
+      "header": "Group Trainings",
+      "attendance": "Attendance",
+      "amateur": "Amateur Group (6-8 people)",
+      "sport": "Sport Group (3-4 people)"
+    },
+    "individualTable": {
+      "header": "Individual",
+      "standart": "Standart Hours",
+      "uptoeight": "Up to 8 years",
+      "overeight": "Over 8 years",
+      "individual": "Individual",
+      "headcoach": "With Head Coach"
+    }
+  }
 }

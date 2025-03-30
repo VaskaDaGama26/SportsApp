@@ -13,10 +13,10 @@ const About = () => {
   const { t, i18n } = useTranslation();
 
   const storyItems = [
-    { icon: weightIcon, text: "weightT" },
-    { icon: communityIcon, text: "communityT" },
-    { icon: medalIcon, text: "medalT" },
-    { icon: trophyIcon, text: "trophyT" },
+    { icon: weightIcon, text: "aboutPage.weightT" },
+    { icon: communityIcon, text: "aboutPage.communityT" },
+    { icon: medalIcon, text: "aboutPage.medalT" },
+    { icon: trophyIcon, text: "aboutPage.trophyT" },
   ];
 
   return (
@@ -34,7 +34,7 @@ const About = () => {
         <p
           className={`text-2xl/normal max-w-7xl px-4 mx-auto mb-8 text-start ${i18n.language === "ru" ? "russian-text" : "english-text"}`}
         >
-          {t("aboutT")}
+          {t("aboutPage.aboutT")}
         </p>
         {/* STORY */}
         <div className="bg-stone-950">
@@ -44,7 +44,7 @@ const About = () => {
               <h1
                 className={`text-7xl uppercase text-center md:text-8xl text-stone-50 mt-4 mx-auto w-fit ${i18n.language === "ru" ? "russian-text-semibold" : "english-text-semibold"}`}
               >
-                {t("storyH")} <p className="text-(--primary)">SPORTS</p>
+                {t("aboutPage.storyH")} <p className="text-(--primary)">SPORTS</p>
               </h1>
             </div>
             {/* LIST STORY */}
@@ -67,7 +67,7 @@ const About = () => {
               <p
                 className={`text-stone-50 text-end text-2xl/tight ${i18n.language === "ru" ? "russian-text-light" : "english-text-light"}`}
               >
-                {t("storyT")}
+                {t("aboutPage.storyT")}
               </p>
             </div>
           </div>
