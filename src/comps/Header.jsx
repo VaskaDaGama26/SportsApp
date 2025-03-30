@@ -184,11 +184,11 @@ const Header = () => {
       <div className="z-50 sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-(--primary) shadow5 flex lg:hidden">
         {/* LOGO */}
         <a className="flex items-center" href="/">
-          <img src="/logo.svg" alt="Sports | Sport Club" />
+          <img src={leftLogo} alt="Sports | Sport Club" />
         </a>
         {/* CENTER LOGO */}
         <a className="flex items-center" href="/">
-          <img className="h-6" src="./logo.png" alt="Sports | Sport Club" />
+          <img className="h-6" src={centerLogo} alt="Sports | Sport Club" />
         </a>
         {/* BURGER ICON */}
         <div
