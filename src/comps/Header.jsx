@@ -183,11 +183,11 @@ const Header = () => {
       {/* MOBILE */}
       <div className="z-50 sticky top-0 flex-row justify-between w-full h-20 py-4 px-5 mx-auto bg-(--primary) shadow5 flex lg:hidden">
         {/* LOGO */}
-        <a className="flex items-center" href="/">
+        <a className="flex items-center" href="/SportsApp/">
           <img src={leftLogo} alt="Sports | Sport Club" />
         </a>
         {/* CENTER LOGO */}
-        <a className="flex items-center" href="/">
+        <a className="flex items-center" href="/SportsApp/">
           <img className="h-6" src={centerLogo} alt="Sports | Sport Club" />
         </a>
         {/* BURGER ICON */}
