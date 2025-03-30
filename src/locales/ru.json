@@ -27,9 +27,9 @@
   },
 
   "newsBlock": {
-    "news1Img": "/news/news1.png",
-    "news2Img": "/news/news2.png",
-    "news3Img": "/news/news3.png",
+    "news1Img": "/SportsApp/news/news1.png",
+    "news2Img": "/SportsApp/news/news2.png",
+    "news3Img": "/SportsApp/news/news3.png",
 
     "news1Date": "11.09.2024",
     "news2Date": "04.09.2024",
