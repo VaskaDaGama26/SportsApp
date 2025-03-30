@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter as Router,
   Routes,
   Navigate,
   Route,
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<Mainpage />} />
           <Route path="/prices" element={<Prices />} />
@@ -25,7 +25,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </>
   );
