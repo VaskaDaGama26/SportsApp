@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import burger from "/icons/menu_icon.svg";
 import close from "/icons/close_icon.svg";
+import leftLogo from "/logo.svg";
+import centerLogo from "/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +38,7 @@ const Header = () => {
     <nav className="flex items-center w-full max-w-7xl justify-between">
       {/* LOGO */}
       <a href="/SportsApp/">
-        <img src="./logo.svg" alt="Sports | Sport Club" />
+        <img src={leftLogo} alt="Sports | Sport Club" />
       </a>
       <div className="flex flex-row gap-24 items-center">
         {/* LEFT NAV */}
@@ -56,7 +58,7 @@ const Header = () => {
         </ul>
         {/* CENTER LOGO */}
         <a href="/SportsApp/">
-          <img className="h-6" src="./logo.png" alt="Sports | Sport Club" />
+          <img className="h-6" src={centerLogo} alt="Sports | Sport Club" />
         </a>
         {/* RIGHT NAV */}
         <ul className="flex flex-row justify-start gap-16 items-center w-3xs">

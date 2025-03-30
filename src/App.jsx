@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <Router basename="/SportsApp/">
+      <Router>
         <Routes>
           <Route path="/" element={<Mainpage />} />
           <Route path="/prices" element={<Prices />} />
